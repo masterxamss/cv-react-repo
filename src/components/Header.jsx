@@ -1,30 +1,31 @@
 import React from 'react'
+import { NavLink, Link } from 'react-router-dom'
 
 const Header = () => {
   return (
     <header>
-        <nav class="navbar navbar-expand-lg bg-dark text-ligth text-uppercase fixed-top" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand text-light" href="#">John Doe</a>
-                <button class="navbar-toggler text-uppercase font-weight-bold bg-dark text-light rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fas fa-bars"></i>
+        <nav className="navbar navbar-expand-lg bg-dark text-ligth text-uppercase" id="mainNav">
+            <div className="container">
+                <Link className="navbar-brand text-white fw-bold" to="/">John Doe</Link>
+                <button className="navbar-toggler text-uppercase font-weight-bold bg-dark text-light rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <i className="fas fa-bars"></i>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item mx-0 mx-lg-1 text-secondary">
-                            <a class="nav-link py-3 px-0 px-lg-3 rounded" aria-current="page" href="#">Accueil</a>
+                <div className="collapse navbar-collapse" id="navbarResponsive">
+                    <ul className="navbar-nav ms-auto">
+                        <li className="nav-item mx-0 mx-lg-1">
+                            <NavLink className="nav-link py-3 px-0 px-lg-3 text-secondary fw-bold" to="/">Accueil</NavLink>
                         </li>
-                        <li class="nav-item mx-0 mx-lg-1">
-                            <a class="nav-link py-3 px-0 px-lg-3 rounded text-secondary" href="#">Services</a>
+                        <li className="nav-item mx-0 mx-lg-1">
+                            <NavLink className="nav-link py-3 px-0 px-lg-3 text-secondary fw-bold" to="services">Services</NavLink>
                         </li>
-                        <li class="nav-item mx-0 mx-lg-1">
-                            <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#">Réalisations</a>
+                        <li className="nav-item mx-0 mx-lg-1">
+                            <NavLink className="nav-link py-3 px-0 px-lg-3 text-secondary fw-bold" to="achievements">Réalisations</NavLink>
+                        </li>s
+                        <li className="nav-item mx-0 mx-lg-1">
+                            <NavLink className="nav-link py-3 px-0 px-lg-3 text-secondary fw-bold" to="blog">Blog</NavLink>
                         </li>
-                        <li class="nav-item mx-0 mx-lg-1">
-                            <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#">Blog</a>
-                        </li>
-                        <li class="nav-item mx-0 mx-lg-1">
-                            <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#">Me Contacter</a>
+                        <li className="nav-item mx-0 mx-lg-1">
+                            <NavLink className="nav-link py-3 px-0 px-lg-3 text-secondary fw-bold" to="contact">Me Contacter</NavLink>
                         </li>
                     </ul>
                 </div>

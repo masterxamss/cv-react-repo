@@ -1,0 +1,6 @@
+@import-normalize;
+
+.navbar-nav a.active {
+    color: #fff !important;
+   }
+
