@@ -1,5 +1,7 @@
-import Header from "./components/Header"
+// COMPONENTS
+import NavBar from "./components/NavBar"
 
+// PAGES
 import Home from "./pages/Home"
 import Services from "./pages/Services"
 import Achievements from "./pages/Achievements"
@@ -7,15 +9,16 @@ import LegalMentions from "./pages/LegalMentions"
 import Blog from "./pages/Blog"
 import Contact from "./pages/Contact"
 
-import { BrowserRouter as Router, Route, Routes, BrowserRouter } from "react-router-dom"
+import { BrowserRouter, Route, Routes} from "react-router-dom"
 
 
 function App() {
-
   return (
     <>
       <BrowserRouter>
-        <Header />
+        <header>
+          <NavBar />
+        </header>
           <Routes>
             <Route index element={<Home />} />
             <Route path="services" element={<Services />} />

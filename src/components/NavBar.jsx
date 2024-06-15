@@ -1,9 +1,8 @@
 import React from 'react'
 import { NavLink, Link } from 'react-router-dom'
 
-const Header = () => {
+const NavBar = () => {
   return (
-    <header>
         <nav className="navbar navbar-expand-lg bg-dark text-ligth text-uppercase" id="mainNav">
             <div className="container">
                 <Link className="navbar-brand text-white fw-bold" to="/">John Doe</Link>
@@ -20,7 +19,7 @@ const Header = () => {
                         </li>
                         <li className="nav-item mx-0 mx-lg-1">
                             <NavLink className="nav-link py-3 px-0 px-lg-3 text-secondary fw-bold" to="achievements">Réalisations</NavLink>
-                        </li>s
+                        </li>
                         <li className="nav-item mx-0 mx-lg-1">
                             <NavLink className="nav-link py-3 px-0 px-lg-3 text-secondary fw-bold" to="blog">Blog</NavLink>
                         </li>
@@ -31,8 +30,7 @@ const Header = () => {
                 </div>
             </div>
         </nav>
-    </header>
-  )
+    )
 }
 
-export default Header
+export default NavBar
