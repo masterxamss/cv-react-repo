@@ -1,114 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
-
+// variables
 @import 'variables';
 
-*{
-    font-family: "Nunito Sans", sans-serif;
-    font-weight: 400;
-}
+//reset styles and fonts
+@import 'base';
+
+//pages
+@import 'pages/home';
+
+//components
+@import 'components/navBar';
 
 
-body{
-    background-color: $bg-color;
-}
 
-h1,h2,h3,h4,strong{
-    font-weight: 600;
-}
 
-.navbar-nav{
-    a.active {
-        color: #fff !important;
-    }
-}
 
-/* HOME DESKTOP VERSION */
-.hero-banner{
-    background-color: black;
-    width: 100%;
-    position: relative;
 
-    img{
-        width: 100%;
-        opacity: 0.3;
-    }
-
-    .content{
-        position: absolute;
-        top: 40%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-    }
-
-    h1{
-        font-size: 4rem;
-    }
-
-    h1, h2{
-        margin-bottom: 1rem;
-        color:#eee;
-        font-weight: 600;
-    }
-}
-
-.about{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-
-    .about-container{
-        display: flex;
-        flex-direction: row;
-        width: 95%;
-        margin: 2rem;
-        height:fit-content;
-        background-color: #fff;
-        border-radius: $base-border-radius;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-
-        .about-content{
-            width: 50%;
-            padding: 2rem;
-
-            h3{
-                width: 100%;
-                border-bottom: 2px solid $blue-color;
-            }
-
-            article{
-                margin-top: 2em;
-                font-size: 1.2rem;
-                
-            }
-        }
-
-        .skills{
-            width: 50%;
-            padding: 2rem;
-
-            img{
-                width: 100%;
-                border-radius: $base-border-radius;
-            }
-
-            h4{
-                margin-top: .5rem;
-            }
-
-            ul{
-                list-style: none;
-                padding: 0;
-
-                p{
-                    margin-bottom: 0;
-                    padding: .5rem 0;
-                }
-            }
-        }
-
-    }
-}
 
 
 

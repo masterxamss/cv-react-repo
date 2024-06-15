@@ -24,7 +24,6 @@ const Home = () => {
   return (
     <main>
       <section className='hero-banner'>
-        <img src={heroImg} alt="banner image"></img>
         <div className="content">
           <h1>Bonjour, je suis John Doe</h1>
           <h2>Développeur web full stack</h2>
