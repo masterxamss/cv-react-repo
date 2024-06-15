@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+* {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+body {
+  background-color: #eee;
+}
+
+.navbar-nav a.active {
+  color: #fff !important;
+}
+
+.hero-banner {
+  background-color: black;
+  width: 100%;
+  position: relative;
+}
+.hero-banner img {
+  width: 100%;
+  opacity: 0.3;
+}
+.hero-banner .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.hero-banner h1 {
+  font-size: 4rem;
+}
+.hero-banner h1, .hero-banner h2 {
+  margin-bottom: 1rem;
+  color: #eee;
+  font-weight: 600;
+}
+
+.about {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.about .about-container {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  margin: 2rem;
+  height: 500px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.about .about-container .about-content {
+  width: 50%;
+  padding: 2rem;
+}
+.about .about-container .about-content h3 {
+  width: 100%;
+  font-weight: 600;
+  border-bottom: 2px solid #0d6efd;
+}
+.about .about-container .about-content article {
+  margin-top: 2em;
+}
+.about .about-container .skills {
+  width: 50%;
+  padding: 2rem;
+}
+.about .about-container .skills img {
+  width: 100%;
+  border-radius: 5px;
+}
+.about .about-container .skills h4 {
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
