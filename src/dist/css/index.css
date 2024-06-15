@@ -1,16 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
 * {
   font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
 }
 
 body {
   background-color: #eee;
 }
 
+h1, h2, h3, h4, strong {
+  font-weight: 600;
+}
+
 .navbar-nav a.active {
   color: #fff !important;
 }
 
+/* HOME DESKTOP VERSION */
 .hero-banner {
   background-color: black;
   width: 100%;
@@ -22,7 +28,7 @@ body {
 }
 .hero-banner .content {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -46,7 +52,7 @@ body {
   flex-direction: row;
   width: 95%;
   margin: 2rem;
-  height: 500px;
+  height: fit-content;
   background-color: #fff;
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -57,11 +63,11 @@ body {
 }
 .about .about-container .about-content h3 {
   width: 100%;
-  font-weight: 600;
   border-bottom: 2px solid #0d6efd;
 }
 .about .about-container .about-content article {
   margin-top: 2em;
+  font-size: 1.2rem;
 }
 .about .about-container .skills {
   width: 50%;
@@ -72,6 +78,13 @@ body {
   border-radius: 5px;
 }
 .about .about-container .skills h4 {
-  font-weight: 600;
   margin-top: 0.5rem;
+}
+.about .about-container .skills ul {
+  list-style: none;
+  padding: 0;
+}
+.about .about-container .skills ul p {
+  margin-bottom: 0;
+  padding: 0.5rem 0;
 }
