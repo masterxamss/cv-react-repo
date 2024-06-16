@@ -99,6 +99,7 @@ ul {
     padding: 0.5rem 0;
   }
 }
+/* HOME TABLET VERSION */
 @media screen and (min-width: 481px) and (max-width: 1024px) {
   .hero-banner {
     background: rgba(0, 0, 0, 0.3);
@@ -106,7 +107,7 @@ ul {
     background-size: cover;
     background-position: 50% 75%;
     width: 100%;
-    height: 115vh;
+    height: 90vh;
   }
   .hero-banner .content {
     display: flex;
