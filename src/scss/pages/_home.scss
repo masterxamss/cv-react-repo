@@ -1,5 +1,5 @@
 /* HOME MOBILE VERSION */
-@media screen and (min-width: 320px) and (max-width: 480px){
+@media screen and (max-width: 480px){
     .hero-banner{
         background: rgb(0, 0, 0, 0.3);
         background-image: url('../../assets/images/hero-bg-mobile.jpg');
@@ -121,6 +121,12 @@
             margin-bottom: 1rem;
             color:white;
         }
+
+        a{
+            font-size: 1rem;
+            padding: 0.4rem .1rem;
+            margin-top: .5rem;
+        }
     }
 
     .about{
@@ -209,6 +215,12 @@
         h1, h2{
             margin-bottom: 1rem;
             color:white;
+        }
+
+        a{
+            font-size: 1rem;
+            padding: 0.4rem .1rem;
+            margin-top: .5rem;
         }
     }
 

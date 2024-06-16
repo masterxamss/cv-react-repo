@@ -9,6 +9,10 @@
     font-weight: 400;
 }
 
+#root{
+    min-width: 320px;
+}
+
 body{
     background-color: $bg-color;
 }
