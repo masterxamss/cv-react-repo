@@ -102,6 +102,9 @@ ul {
     margin-bottom: 0;
     padding: 0.5rem 0;
   }
+  .about .about-container .skills .progress {
+    height: 5px;
+  }
 }
 /* HOME TABLET VERSION */
 @media screen and (min-width: 481px) and (max-width: 1024px) {
