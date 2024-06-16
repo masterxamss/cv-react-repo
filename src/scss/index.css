@@ -8,29 +8,19 @@
 }
 
 #root {
-  min-width: 381px;
+  min-width: 320px;
 }
 
 body {
-  background-color: #f8f9fb;
+  background-color: #eee;
 }
 
-main {
-  color: #444;
+header {
+  background-color: #444;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, strong {
   font-weight: 600;
-}
-
-a {
-  text-decoration: none;
-  color: #444;
-}
-
-strong {
-  font-weight: 600;
-  color: black;
 }
 
 ul {
@@ -39,15 +29,15 @@ ul {
 }
 
 /* HOME MOBILE VERSION */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
   .hero-banner {
     background: rgba(0, 0, 0, 0.3);
     background-image: url("../../assets/images/hero-bg-mobile.jpg");
-    background-size: 180%;
+    background-size: 210%;
     background-position: 50% 75%;
     background-repeat: no-repeat;
     width: 100%;
-    height: 80vh;
+    height: 90vh;
   }
   .hero-banner .content {
     display: flex;
@@ -83,6 +73,7 @@ ul {
     flex-direction: column;
     width: 100%;
     margin: 2.5rem 0;
+    height: -moz-fit-content;
     height: fit-content;
     background-color: #fff;
     border-radius: 5px;
@@ -121,7 +112,7 @@ ul {
   }
 }
 /* HOME TABLET VERSION */
-@media screen and (min-width: 769px) and (max-width: 992px) {
+@media screen and (min-width: 481px) and (max-width: 1024px) {
   .hero-banner {
     background: rgba(0, 0, 0, 0.3);
     background-image: url("../../assets/images/hero-bg-tablette.jpg");
@@ -162,6 +153,7 @@ ul {
     flex-direction: row;
     width: 95%;
     margin: 2rem;
+    height: -moz-fit-content;
     height: fit-content;
     background-color: #fff;
     border-radius: 5px;
@@ -201,7 +193,7 @@ ul {
   }
 }
 /* HOME DESKTOP VERSION */
-@media screen and (min-width: 993px) {
+@media screen and (min-width: 1024px) {
   .hero-banner {
     background: rgba(0, 0, 0, 0.3);
     background-image: url("../../assets/images/hero-bg.jpg");
@@ -240,6 +232,7 @@ ul {
     flex-direction: row;
     width: 95%;
     margin: 2rem;
+    height: -moz-fit-content;
     height: fit-content;
     background-color: #fff;
     border-radius: 5px;
@@ -283,22 +276,6 @@ ul {
 }
 
 footer {
-  background-color: #eee;
-  height: fit-content;
-  font-size: 1rem;
-}
-footer a {
-  font-weight: bold;
-}
-footer i {
-  margin: 0 0.5rem;
-}
-footer .social-icons {
-  font-size: 2rem;
-}
-footer .social-icons span {
-  margin: 0 0.5rem;
-}
-footer small {
-  font-size: 1.14rem;
-}
+  background-color: red;
+  height: 500px;
+}/*# sourceMappingURL=index.css.map */

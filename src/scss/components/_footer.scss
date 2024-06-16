@@ -1,0 +1,27 @@
+footer{
+    background-color: $bg-color;
+    height: fit-content;
+    font-size: 1rem;
+
+    a{
+        font-weight: bold;
+    }
+
+    i{
+        margin: 0 .5rem;
+    }
+
+    .social-icons{
+        font-size: 2rem;
+    
+        span{
+            margin: 0 .5rem;
+        }
+    }
+
+    small{
+        font-size: 1.14rem;
+    }
+
+}
+

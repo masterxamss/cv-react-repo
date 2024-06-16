@@ -10,15 +10,30 @@
 }
 
 #root{
-    min-width: 320px;
+    min-width: 381px;
 }
 
 body{
-    background-color: $bg-color;
+    background-color: #f8f9fb;
 }
 
-h1,h2,h3,h4,strong{
+main{
+    color: $text-color;
+}
+
+h1,h2,h3,h4,h5{
     font-weight: 600;
+    //color: $title-color;
+}
+
+a{
+    text-decoration: none;
+    color: $text-color;
+}
+
+strong{
+    font-weight: 600;
+    color: black;
 }
 
 ul{
