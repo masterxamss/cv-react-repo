@@ -1,5 +1,5 @@
-/* MOBILE DESKTOP VERSION */
-@media screen and (min-width: 321px) and (max-width: 720px){
+/* HOME MOBILE VERSION */
+@media screen and (min-width: 0px) and (max-width: 720px){
     .hero-banner{
         background: rgb(0, 0, 0, 0.3);
         background-image: url('../../assets/images/hero-bg-mobile.jpg');
@@ -41,7 +41,6 @@
         width: 100%;
         display: flex;
         justify-content: center;
-
         .about-container{
             display: flex;
             flex-direction: column;
@@ -59,6 +58,7 @@
                 h3{
                     width: 100%;
                     border-bottom: 2px solid $blue-color;
+                    padding: .5rem 0;
                 }
 
                 article{
@@ -92,7 +92,7 @@
 }
 
 /* HOME DESKTOP VERSION */
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 721px){
     .hero-banner{
         background: rgb(0, 0, 0, 0.3);
         background-image: url('../../assets/images/hero-bg.jpg');

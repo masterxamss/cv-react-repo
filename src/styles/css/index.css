@@ -20,8 +20,8 @@ ul {
   padding: 0;
 }
 
-/* MOBILE DESKTOP VERSION */
-@media screen and (min-width: 321px) and (max-width: 720px) {
+/* HOME MOBILE VERSION */
+@media screen and (min-width: 0px) and (max-width: 720px) {
   .hero-banner {
     background: rgba(0, 0, 0, 0.3);
     background-image: url("../../assets/images/hero-bg-mobile.jpg");
@@ -76,6 +76,7 @@ ul {
   .about .about-container .about-content h3 {
     width: 100%;
     border-bottom: 2px solid #0d6efd;
+    padding: 0.5rem 0;
   }
   .about .about-container .about-content article {
     margin-top: 2em;
@@ -98,7 +99,7 @@ ul {
   }
 }
 /* HOME DESKTOP VERSION */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 721px) {
   .hero-banner {
     background: rgba(0, 0, 0, 0.3);
     background-image: url("../../assets/images/hero-bg.jpg");

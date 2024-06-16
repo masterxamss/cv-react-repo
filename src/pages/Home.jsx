@@ -27,7 +27,7 @@ const Home = () => {
         <div className="content">
           <h1>Bonjour, je suis John Doe</h1>
           <h2>Développeur web full stack</h2>
-          <a href='#about' className='btn btn-primary fw-bold px-4'>En savoir plus</a>
+          <a href='#about' className='btn btn-sm btn-primary fw-bold px-4'>En savoir plus</a>
         </div>
       </section>
 
