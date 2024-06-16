@@ -274,6 +274,20 @@ ul {
     padding: 0.5rem 0;
   }
 }
+.blog-container span {
+  height: 5px;
+  max-width: 15%;
+  display: block;
+  margin: 0 auto;
+  background-color: #0d6efd;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+.blog-container h5 {
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
 .navbar-nav a.active {
   color: #fff !important;
 }

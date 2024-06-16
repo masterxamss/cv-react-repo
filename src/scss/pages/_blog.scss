@@ -1,0 +1,16 @@
+.blog-container{
+    span{
+        height: 5px;
+        max-width: 15%;
+        display: block;
+        margin: 0 auto;
+        background-color: $blue-color;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+    }
+
+    h5{
+        font-weight: bolder;
+        font-size: 1.5rem;
+    }
+}

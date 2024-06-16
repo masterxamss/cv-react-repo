@@ -1,5 +1,4 @@
 import React from 'react'
-import heroImg from '../assets/images/hero-bg.jpg'
 import aboutImg from '../assets/images/john-doe-about.jpg'
 
 const Home = () => {
