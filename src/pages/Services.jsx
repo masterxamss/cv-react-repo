@@ -8,12 +8,12 @@ const Services = () => {
       <section className='services-container'>
         <div className="section-title">
           <h1 className="text-uppercase text-center fluid pt-4">Mon offre de services</h1>
-          <h2 className="text-center fluid fs-5">
+          <h2 className="text-center fluid fs-6">
             Voici les prestations sur lesquelles je peux intervenir.
           </h2>
           <span></span>
           </div>
-          <div className="services-content row p-5">
+          <div className="services-content row p-3">
             <div className="col-sm-12 col-md-4 py-1">
               <article className='text-center shadow-sm p-3 mb-1 bg-body m-1 d-flex flex-column justify-content-center' style={{borderRadius: '10px', minHeight: "300px"}}>
                 <i className="fa-solid fa-display" style={{color: '#0d6efd', fontSize: '30px'}}></i>
