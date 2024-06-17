@@ -13,11 +13,13 @@ const Blog = () => {
     <main>
       <Banner />
       <section className="blog-container">
-        <h1 className="text-uppercase text-center fluid pt-4">Blog</h1>
-        <h2 className="text-center fluid fs-5">
-          Retrouvez ici quelques articles sur le développement web.
-        </h2>
-        <span></span>
+        <div className="section-title">
+          <h1 className="text-uppercase text-center fluid pt-4">Blog</h1>
+          <h2 className="text-center fluid fs-5">
+            Retrouvez ici quelques articles sur le développement web.
+          </h2>
+          <span></span>
+        </div>
         {/* CARDS */}
         <div className="container">
 
