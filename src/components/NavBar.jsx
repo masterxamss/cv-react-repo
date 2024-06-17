@@ -18,7 +18,7 @@ const NavBar = () => {
                             <NavLink className="nav-link py-3 px-0 px-lg-3 text-secondary fw-bold" to="services">Services</NavLink>
                         </li>
                         <li className="nav-item mx-0 mx-lg-1">
-                            <NavLink className="nav-link py-3 px-0 px-lg-3 text-secondary fw-bold" to="achievements">Réalisations</NavLink>
+                            <NavLink className="nav-link py-3 px-0 px-lg-3 text-secondary fw-bold " to="achievements">Réalisations</NavLink>
                         </li>
                         <li className="nav-item mx-0 mx-lg-1">
                             <NavLink className="nav-link py-3 px-0 px-lg-3 text-secondary fw-bold" to="blog">Blog</NavLink>
