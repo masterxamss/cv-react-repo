@@ -12,7 +12,7 @@ const Achievements = () => {
         <div className="section-title">
           <h1 className="text-uppercase text-center fluid pt-4">Portfolio</h1>
           <h2 className="text-center fluid fs-5">
-            Coici quelques-unes de mes réalisations
+            Voici quelques-unes de mes réalisations
           </h2>
           <span></span>
         </div>
