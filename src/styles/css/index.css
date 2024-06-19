@@ -319,15 +319,22 @@ ul {
     padding: 0 2rem !important;
   }
 }
-.navbar-nav {
-  position: static !important;
+article:hover {
+  background-color: red;
 }
+article:hover .icon {
+  color: #cde1f8 !important;
+}
+
 .navbar-nav a.active {
   color: #fff !important;
 }
 .navbar-nav a {
   font-size: 0.9rem;
   padding: 0.4rem 0.6rem !important;
+}
+.navbar-nav a:hover {
+  color: rgba(255, 255, 255, 0.8) !important;
 }
 
 footer {

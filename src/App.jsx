@@ -22,11 +22,11 @@ function App() {
         </header>
         <Routes>
           <Route index element={<Home />} />
-          <Route path="services" element={<Services />} />
-          <Route path="achievements" element={<Achievements />} />
-          <Route path="legal-mentions" element={<LegalMentions />} />
-          <Route path="blog" element={<Blog />} />
-          <Route path="contact" element={<Contact />} />
+          <Route path="Services" element={<Services />} />
+          <Route path="Achievements" element={<Achievements />} />
+          <Route path="LegalMentions" element={<LegalMentions />} />
+          <Route path="Blog" element={<Blog />} />
+          <Route path="Contact" element={<Contact />} />
         </Routes>
         <Footer />
       </BrowserRouter> 
