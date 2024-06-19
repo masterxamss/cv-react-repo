@@ -319,9 +319,6 @@ ul {
     padding: 0 2rem !important;
   }
 }
-article:hover {
-  background-color: red;
-}
 article:hover .icon {
   color: #cde1f8 !important;
 }

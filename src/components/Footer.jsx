@@ -36,7 +36,7 @@ const Footer = () => {
                     </div>
                     <div>
                         <i className="fa-solid fa-chevron-right fa-rotate-by" style={{color: '#0d6efd'}}></i>
-                        <Link to="">À propos</Link>
+                        <Link to="/components/Infos">À propos</Link>
                     </div>
                     <div>
                         <i className="fa-solid fa-chevron-right fa-rotate-by" style={{color: '#0d6efd'}}></i>
@@ -57,7 +57,7 @@ const Footer = () => {
                 <h5>Mes dernières Réalisations</h5>
                     <div>
                         <i className="fa-solid fa-chevron-right fa-rotate-by" style={{color: '#0d6efd'}}></i>
-                        <Link to="/">Fresh food</Link>
+                        <Link to="">Fresh food</Link>
                     </div>
                     <div>
                         <i className="fa-solid fa-chevron-right fa-rotate-by" style={{color: '#0d6efd'}}></i>
@@ -65,7 +65,7 @@ const Footer = () => {
                     </div>
                     <div>
                         <i className="fa-solid fa-chevron-right fa-rotate-by" style={{color: '#0d6efd'}}></i>
-                        <Link to="Services">Espace bien-être</Link>
+                        <Link to="">Espace bien-être</Link>
                     </div>
                 </div>
             </div>
@@ -75,7 +75,7 @@ const Footer = () => {
                     <h5>Mes dernières articles</h5>
                     <div>
                         <i className="fa-solid fa-chevron-right fa-rotate-by" style={{color: '#0d6efd'}}></i>
-                        <Link to="/">Coder son site en HTML/CSS</Link>
+                        <Link to="">Coder son site en HTML/CSS</Link>
                     </div>
                     <div>
                         <i className="fa-solid fa-chevron-right fa-rotate-by" style={{color: '#0d6efd'}}></i>
@@ -83,7 +83,7 @@ const Footer = () => {
                     </div>
                     <div>
                         <i className="fa-solid fa-chevron-right fa-rotate-by" style={{color: '#0d6efd'}}></i>
-                        <Link to="Service">Se positionner sur Google</Link>
+                        <Link to="">Se positionner sur Google</Link>
                     </div>
                 </div>
             </div>

@@ -9,6 +9,7 @@ import LegalMentions from "./pages/LegalMentions"
 import Blog from "./pages/Blog"
 import Contact from "./pages/Contact"
 import Footer from "./components/Footer"
+import Infos from "./components/Infos"
 
 import { BrowserRouter, Route, Routes} from "react-router-dom"
 
@@ -27,6 +28,7 @@ function App() {
           <Route path="LegalMentions" element={<LegalMentions />} />
           <Route path="Blog" element={<Blog />} />
           <Route path="Contact" element={<Contact />} />
+          <Route path="/components/Infos" element={<Infos />} />
         </Routes>
         <Footer />
       </BrowserRouter> 
