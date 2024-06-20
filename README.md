@@ -1,5 +1,6 @@
 # John Doe WebSite
   ![imagem](https://github.com/masterxamss/portfolio/assets/133535176/d891aecb-729a-4957-97ab-259a87a26074) 
+  ![imagem](https://avatars.githubusercontent.com/u/19842736?v=4)
 
 
 
@@ -21,10 +22,10 @@ npm@10.5.2 or higher
 From your command line, first clone portfolio:
 ```
 # Clone the repository
-$ git clone https://github.com/masterxamss/portfolio.git
+$ [git clone https://github.com/masterxamss/cv-react-repo.git
 
 # Move into the repository
-$ cd portfolio
+$ cd cv-react-repo
 
 # Remove the current origin repository
 $ git remote remove origin
@@ -45,3 +46,7 @@ $ sudo npm install --unsafe-perm=true --allow-root
 W3C validations:
 ```
 /public/validator w3c
+
+# Address Link WebPage
+Code sandbox - https://7qprk5-3000.csb.app/
+Back4App - https://cvreactapp-5fbrm8u0.b4a.run
