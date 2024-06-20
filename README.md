@@ -1,6 +1,6 @@
 # John Doe WebSite
-  ![imagem](https://github.com/masterxamss/portfolio/assets/133535176/d891aecb-729a-4957-97ab-259a87a26074)  
-  ![imagem](https://avatars.githubusercontent.com/u/19842736?v=4)
+  ![CEF logo](https://github.com/masterxamss/portfolio/assets/133535176/d891aecb-729a-4957-97ab-259a87a26074)  
+  ![John Doe Avatar](https://avatars.githubusercontent.com/u/19842736?v=4./pic/pic1s.png =x250)
 
 
 
@@ -14,7 +14,7 @@
 These instructions will lead you to make a copy on your machine
 ### Prerequisites 📝
 ```
-+ git@2.34.1 or higher
+git@2.34.1 or higher
 node@v20.13.1 or higher
 npm@10.5.2 or higher
 ```
@@ -47,6 +47,9 @@ W3C validations:
 ```
 /public/validator w3c
 
-# Address Link WebPage
+```
+PAGE URL's
+```
+# Address WebPage
 Code sandbox - https://7qprk5-3000.csb.app/
 Back4App - https://cvreactapp-5fbrm8u0.b4a.run
