@@ -7,7 +7,6 @@ import ImgCard4 from "../assets/images/blog/screens.jpg";
 import ImgCard5 from "../assets/images/blog/seo.jpg";
 import ImgCard6 from "../assets/images/blog/technos.png";
 
-
 const Blog = () => {
   return (
     <main>
@@ -22,18 +21,19 @@ const Blog = () => {
         </div>
         {/* CARDS */}
         <div className="container">
-
           <div className="row">
-
             <div className="col-sm-12 col-md-6 col-lg-4 pb-4">
               <div className="card">
-                <img src={ImgCard1} className="card-img-top" alt="image code"></img>
+                <img src={ImgCard1} className="card-img-top" alt="image code" />
                 <div className="card-body">
                   <h5 className="card-title">Coder son site en HTML/CSS</h5>
                   <p className="card-text">
-                    Some quick example text to build on the carde title ande make up the bulk of card's content
+                    Some quick example text to build on the carde title ande
+                    make up the bulk of card's content
                   </p>
-                  <button type="button" className="btn btn-primary btn-sm">Lire la suite</button>
+                  <button type="button" className="btn btn-primary btn-sm">
+                    Lire la suite
+                  </button>
                 </div>
                 <div className="card-footer">
                   <small className="text-body-secondary">
@@ -44,13 +44,20 @@ const Blog = () => {
             </div>
             <div className="col-sm-12 col-md-6 col-lg-4 pb-4">
               <div className="card">
-                <img src={ImgCard2} className="card-img-top" alt="image money"></img>
+                <img
+                  src={ImgCard2}
+                  className="card-img-top"
+                  alt="image money"
+                />
                 <div className="card-body">
                   <h5 className="card-title">Vendre ses produits sur le web</h5>
                   <p className="card-text">
-                    Some quick example text to build on the carde title ande make up the bulk of card's content
+                    Some quick example text to build on the carde title ande
+                    make up the bulk of card's content
                   </p>
-                  <button type="button" className="btn btn-primary btn-sm">Lire la suite</button>
+                  <button type="button" className="btn btn-primary btn-sm">
+                    Lire la suite
+                  </button>
                 </div>
                 <div className="card-footer">
                   <small className="text-body-secondary">
@@ -61,13 +68,20 @@ const Blog = () => {
             </div>
             <div className="col-sm-12 col-md-6 col-lg-4 pb-4">
               <div className="card">
-                <img src={ImgCard3} className="card-img-top" alt="image google"></img>
+                <img
+                  src={ImgCard3}
+                  className="card-img-top"
+                  alt="image google"
+                />
                 <div className="card-body">
                   <h5 className="card-title">Se positionner sur Google</h5>
                   <p className="card-text">
-                    Some quick example text to build on the carde title ande make up the bulk of card's content
+                    Some quick example text to build on the carde title ande
+                    make up the bulk of card's content
                   </p>
-                  <button type="button" className="btn btn-primary btn-sm">Lire la suite</button>
+                  <button type="button" className="btn btn-primary btn-sm">
+                    Lire la suite
+                  </button>
                 </div>
                 <div className="card-footer">
                   <small className="text-body-secondary">
@@ -77,16 +91,18 @@ const Blog = () => {
               </div>
             </div>
 
-
             <div className="col-sm-12 col-md-6 col-lg-4 pb-4">
               <div className="card">
-                <img src={ImgCard4} className="card-img-top" alt="image code"></img>
+                <img src={ImgCard4} className="card-img-top" alt="image code" />
                 <div className="card-body">
                   <h5 className="card-title">Coder en responsive design</h5>
                   <p className="card-text">
-                    Some quick example text to build on the carde title ande make up the bulk of card's content
+                    Some quick example text to build on the carde title ande
+                    make up the bulk of card's content
                   </p>
-                  <button type="button" className="btn btn-primary btn-sm">Lire la suite</button>
+                  <button type="button" className="btn btn-primary btn-sm">
+                    Lire la suite
+                  </button>
                 </div>
                 <div className="card-footer">
                   <small className="text-body-secondary">
@@ -98,13 +114,20 @@ const Blog = () => {
 
             <div className="col-sm-12 col-md-6 col-lg-4 pb-4">
               <div className="card">
-                <img src={ImgCard5} className="card-img-top" alt="image money"></img>
+                <img
+                  src={ImgCard5}
+                  className="card-img-top"
+                  alt="image money"
+                />
                 <div className="card-body">
                   <h5 className="card-title">Techniques de référencement</h5>
                   <p className="card-text">
-                    Some quick example text to build on the carde title ande make up the bulk of card's content
+                    Some quick example text to build on the carde title ande
+                    make up the bulk of card's content
                   </p>
-                  <button type="button" className="btn btn-primary btn-sm">Lire la suite</button>
+                  <button type="button" className="btn btn-primary btn-sm">
+                    Lire la suite
+                  </button>
                 </div>
                 <div className="card-footer">
                   <small className="text-body-secondary">
@@ -116,13 +139,20 @@ const Blog = () => {
 
             <div className="col-sm-12 col-md-6 col-lg-4 pb-4">
               <div className="card">
-                <img src={ImgCard6} className="card-img-top" alt="image google"></img>
+                <img
+                  src={ImgCard6}
+                  className="card-img-top"
+                  alt="image google"
+                />
                 <div className="card-body">
                   <h5 className="card-title">Apprendre à coder</h5>
                   <p className="card-text">
-                    Some quick example text to build on the carde title ande make up the bulk of card's content
+                    Some quick example text to build on the carde title ande
+                    make up the bulk of card's content
                   </p>
-                  <button type="button" className="btn btn-primary btn-sm">Lire la suite</button>
+                  <button type="button" className="btn btn-primary btn-sm">
+                    Lire la suite
+                  </button>
                 </div>
                 <div className="card-footer">
                   <small className="text-body-secondary">
@@ -131,10 +161,7 @@ const Blog = () => {
                 </div>
               </div>
             </div>
-
           </div>
-
-
         </div>
       </section>
     </main>

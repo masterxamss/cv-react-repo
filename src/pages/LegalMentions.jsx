@@ -2,7 +2,7 @@ import React from "react";
 
 const LegalMentions = () => {
   return (
-    <main className="h-100" style={{height: 'max-content'}}> 
+    <main> 
       <section className="legal-mentions-container px-5 pb-5 mb-5">
         <div className="section-title">
           <h1 className="text-uppercase text-center fluid pt-4">
@@ -68,7 +68,7 @@ const LegalMentions = () => {
                   <address className="fw-bold">
                     91 rue du Faubourg Saint Honoré<br />75008 Paris
                   </address>
-                  <i class="fa-solid fa-globe"></i>
+                  <i className="fa-solid fa-globe"></i>
                   <a href="https://www.alwaysdata.com" target="_blank" className="text-primary"> www.alwaysdata.com</a>
                 </div>
               </div>

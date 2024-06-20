@@ -109,56 +109,63 @@ const Footer = () => {
                   className="fa-solid fa-chevron-right fa-rotate-by"
                   style={{ color: "#0d6efd" }}
                 ></i>
-                <Link to="">Fresh food</Link>
+                <Link to="/Achievements">Fresh food</Link>
               </div>
               <div>
                 <i
                   className="fa-solid fa-chevron-right fa-rotate-by"
                   style={{ color: "#0d6efd" }}
                 ></i>
-                <Link to="">Restaurant Akira</Link>
+                <Link to="/Achievements">Restaurant Akira</Link>
               </div>
               <div>
                 <i
                   className="fa-solid fa-chevron-right fa-rotate-by"
                   style={{ color: "#0d6efd" }}
                 ></i>
-                <Link to="">Espace bien-être</Link>
+                <Link to="/Achievements">Espace bien-être</Link>
               </div>
             </div>
           </div>
 
           <div className="col-sm-12 col-md-6 col-lg-3 my-4 px-4">
-            <div className="">
+            <div>
               <h5>Mes dernières articles</h5>
               <div>
                 <i
                   className="fa-solid fa-chevron-right fa-rotate-by"
                   style={{ color: "#0d6efd" }}
                 ></i>
-                <Link to="">Coder son site en HTML/CSS</Link>
+                <Link to="/Blog">Coder son site en HTML/CSS</Link>
               </div>
               <div>
                 <i
                   className="fa-solid fa-chevron-right fa-rotate-by"
                   style={{ color: "#0d6efd" }}
                 ></i>
-                <Link to="">Vendre ses produits sue le web</Link>
+                <Link to="/Blog">Vendre ses produits sue le web</Link>
               </div>
               <div>
                 <i
                   className="fa-solid fa-chevron-right fa-rotate-by"
                   style={{ color: "#0d6efd" }}
                 ></i>
-                <Link to="">Se positionner sur Google</Link>
+                <Link to="/Blog">Se positionner sur Google</Link>
               </div>
             </div>
           </div>
 
           <div className="col text-center text-light bg-dark py-3">
             <small className="fw-bold">&copy; Design by John Doe</small>
-            <span className="scrolltop" id="backToTop">
-                <i className="fa-solid fa-arrow-up fs-3 mt-1" style={{color: '#c0bfbc'}}></i>
+            <span
+              className="scrolltop"
+              id="backToTop"
+              style={{ display: "none" }}
+            >
+              <i
+                className="fa-solid fa-arrow-up fs-3 mt-1"
+                style={{ color: "#c0bfbc" }}
+              ></i>
             </span>
           </div>
         </div>
