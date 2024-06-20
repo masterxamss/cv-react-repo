@@ -14,7 +14,7 @@
 These instructions will lead you to make a copy on your machine
 ### Prerequisites 📝
 ```
-git@2.34.1 or higher
++ git@2.34.1 or higher
 node@v20.13.1 or higher
 npm@10.5.2 or higher
 ```
