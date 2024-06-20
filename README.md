@@ -47,7 +47,7 @@ $ sudo npm install --unsafe-perm=true --allow-root
 ```
 **W3C validations:**
 ```
-/public/validator w3c
+/public/validator_w3c
 
 ```
 **PAGE URL's**
