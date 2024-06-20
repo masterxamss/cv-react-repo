@@ -1,6 +1,6 @@
 # John Doe WebSite
   ![CEF logo](https://github.com/masterxamss/portfolio/assets/133535176/d891aecb-729a-4957-97ab-259a87a26074)  
-  ![John Doe Avatar](https://avatars.githubusercontent.com/u/19842736?v=4 | width=200)
+  <img src="https://avatars.githubusercontent.com/u/19842736?v=4" width="200" height="400" />
 
 
 
