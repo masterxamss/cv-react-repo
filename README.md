@@ -45,12 +45,12 @@ $ npm run dev
 # Install dependencies with all permissions
 $ sudo npm install --unsafe-perm=true --allow-root
 ```
-W3C validations:
+**W3C validations:**
 ```
 /public/validator w3c
 
 ```
-PAGE URL's
+**PAGE URL's**
 ```
 # Address WebPage
 Code sandbox - https://7qprk5-3000.csb.app/
