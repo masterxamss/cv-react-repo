@@ -2,8 +2,8 @@ import React from "react";
 
 const LegalMentions = () => {
   return (
-    <main>
-      <section className="legal-mentions-container px-5 pb-4">
+    <main className="h-100" style={{height: 'max-content'}}> 
+      <section className="legal-mentions-container px-5 pb-5 mb-5">
         <div className="section-title">
           <h1 className="text-uppercase text-center fluid pt-4">
             Mentions légales

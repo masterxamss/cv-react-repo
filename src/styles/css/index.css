@@ -13,6 +13,7 @@
 
 body {
   background-color: #f8f9fb;
+  min-height: 100vh;
 }
 
 main {
@@ -21,6 +22,7 @@ main {
 
 h1, h2, h3, h4, h5 {
   font-weight: 600;
+  color: #1e1e1e;
 }
 
 a {
@@ -353,4 +355,22 @@ footer .social-icons span {
 }
 footer small {
   font-size: 1.14rem;
+}
+footer .scrolltop {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  bottom: 19px;
+  right: 10px;
+  position: fixed;
+  margin: 1rem;
+  border-radius: 50%;
+  cursor: pointer;
+  vertical-align: middle;
+  background-color: #298eff;
+  opacity: 0.5;
+  transition: all 0.5s ease-out;
+}
+footer .scrolltop:hover {
+  opacity: 1;
 }

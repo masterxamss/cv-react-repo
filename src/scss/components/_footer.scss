@@ -23,5 +23,25 @@ footer{
         font-size: 1.14rem;
     }
 
+    .scrolltop{
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        bottom:19px;
+        right: 10px;
+        position: fixed;
+        margin: 1rem;
+        border-radius: 50%;
+        cursor: pointer;
+        vertical-align: middle;
+        background-color: #298eff;
+        opacity: .5;
+        transition: all .5s ease-out;
+    }
+
+    .scrolltop:hover{
+        opacity: 1;
+    }
+
 }
 
