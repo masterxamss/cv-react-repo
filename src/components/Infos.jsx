@@ -1,17 +1,6 @@
-import React, { useEffect, useState } from "react";
+const Infos = (props) => {
 
-const Infos = () => {
-  const [user, setUser] = useState([]);
-
-  const getUser = async () => {
-    const res = await fetch("https://api.github.com/users/github-john-doe");
-    const json = await res.json();
-    setUser(json);
-  };
-
-  useEffect(() => {
-    getUser();
-  }, []);
+  const user = props.user
 
   return (
     <div>
